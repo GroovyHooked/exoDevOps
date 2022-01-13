@@ -1,0 +1,7 @@
+CRITICAL - 2022-01-13 04:35:26 --> Too few arguments to function App\Controllers\Home::index(), 1 passed in /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php on line 824 and exactly 2 expected
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->index('')
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
