@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 use \App\Models\Mail;
-
+use CodeIgniter\HTTP\IncomingRequest;
 
 class Home extends BaseController
 {
@@ -19,5 +19,13 @@ class Home extends BaseController
         } else {
             echo view('error', $data);
         }
+    }
+
+    public function mail()
+    {
+
+        $conctat_name = $this->getPost('contact_name');
+
+
     }
 }
