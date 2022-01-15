@@ -9,6 +9,6 @@
 </head>
 <body>
 <h1>Un problème est survenu</h1>
-<?= $debug ?>
+<?= $foo ?>
 </body>
 </html>

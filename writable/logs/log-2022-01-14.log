@@ -1,0 +1,190 @@
+CRITICAL - 2022-01-14 05:14:25 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Users/thomasca...', 30, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(30): json_decode(Array)
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#7 {main}
+CRITICAL - 2022-01-14 05:16:18 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Users/thomasca...', 31, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(31): json_decode(Array)
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#7 {main}
+CRITICAL - 2022-01-14 05:18:40 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Users/thomasca...', 31, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(31): json_decode(Object(stdClass))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#7 {main}
+CRITICAL - 2022-01-14 05:19:06 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Users/thomasca...', 31, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(31): json_decode(Object(stdClass))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#7 {main}
+CRITICAL - 2022-01-14 05:19:22 --> Invalid argument supplied for foreach()
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/thomasca...', 33, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 05:19:51 --> Invalid argument supplied for foreach()
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/thomasca...', 33, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 05:20:10 --> Invalid argument supplied for foreach()
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/thomasca...', 33, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 05:20:39 --> Invalid argument supplied for foreach()
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/thomasca...', 33, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 05:20:46 --> Use of undefined constant nom - assumed 'nom' (this will throw an Error in a future version of PHP)
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Users/thomasca...', 32, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 05:23:55 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Users/thomasca...', 30, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(30): json_decode(Object(stdClass), true)
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#7 {main}
+CRITICAL - 2022-01-14 05:24:11 --> Invalid argument supplied for foreach()
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/thomasca...', 31, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 05:24:19 --> Invalid argument supplied for foreach()
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/thomasca...', 31, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 05:24:21 --> Invalid argument supplied for foreach()
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/thomasca...', 31, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 16:22:13 --> Invalid argument supplied for foreach()
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/thomasca...', 32, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 16:23:14 --> A non-numeric value encountered
+#0 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Users/thomasca...', 33, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->mail()
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#6 {main}
+CRITICAL - 2022-01-14 16:32:56 --> Call to undefined method App\Controllers\Home::getPost()
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
+CRITICAL - 2022-01-14 16:43:24 --> Object of class CodeIgniter\HTTP\ContentSecurityPolicy could not be converted to string
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
+CRITICAL - 2022-01-14 16:43:50 --> Object of class CodeIgniter\HTTP\ContentSecurityPolicy could not be converted to string
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
+CRITICAL - 2022-01-14 16:44:31 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
+CRITICAL - 2022-01-14 16:46:31 --> Cannot access protected property CodeIgniter\HTTP\Response::$reason
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
+CRITICAL - 2022-01-14 16:56:38 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Users/thomasca...', 43, Array)
+#1 /Users/thomascariot/Sites/codeigniter4/app/Controllers/Home.php(43): json_decode(Object(CodeIgniter\HTTP\Response))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#3 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#7 {main}
+CRITICAL - 2022-01-14 16:57:09 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
+CRITICAL - 2022-01-14 17:02:06 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
+CRITICAL - 2022-01-14 17:02:16 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(824): App\Controllers\Home->userdata()
+#1 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/thomascariot/Sites/codeigniter4/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/thomascariot/Sites/codeigniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/thomascariot/Sites/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/thomasca...')
+#5 {main}
