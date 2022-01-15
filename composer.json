@@ -22,7 +22,7 @@
         "nexusphp/cs-config": "^3.3",
         "nexusphp/tachycardia": "^1.0",
         "phpstan/phpstan": "^0.12.91",
-        "phpunit/phpunit": "^9.1",
+        "phpunit/phpunit": "^9.5",
         "predis/predis": "^1.1",
         "rector/rector": "0.11.60"
     },
@@ -59,7 +59,7 @@
             "bash -c \"if [ -f admin/setup.sh ]; then bash admin/setup.sh; fi\""
         ],
         "analyze": "phpstan analyse",
-        "test": "phpunit",
+        "test": "/vendor/bin/phpunit",
         "cs": [
             "php-cs-fixer fix --verbose --dry-run --diff --config=.no-header.php-cs-fixer.dist.php",
             "php-cs-fixer fix --verbose --dry-run --diff"
