@@ -1,0 +1,5 @@
+/vendor
+/system
+/writable
+/.github
+.gitignore
