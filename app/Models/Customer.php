@@ -95,6 +95,13 @@ class Customer extends Model
         }
     }
 
+    public function updateStatus(string $email)
+    {
+        return $this->set('isSent', 1)
+            ->where('email', $email)
+            ->update();
+    }
+
     public function isSentStatus(string $email)
     {
         $query =  $this->select('isSent')

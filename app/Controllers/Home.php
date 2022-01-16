@@ -27,6 +27,7 @@ class Home extends BaseController
         $userData = $Customer->doesUserDataExist($email);
         if(isset($userData)){
             $Customer->insertPathIfDataExists($path, $email);
+            $Customer->updateStatus($email);
             echo 'User data inserted in database, email will be sent';
             $this->sendPdf($email);
         } else {
@@ -56,6 +57,7 @@ class Home extends BaseController
             $isDataInserted = $Customer->updateUserDataWithPath($first_name, $last_name, $email, $pathOrNot);
             if($isDataInserted)
                 echo 'User data inserted in database, email will be sent';
+                $Customer->updateStatus($email);
                 $this->sendPdf($email);
         }
 
