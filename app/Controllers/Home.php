@@ -12,6 +12,11 @@ use CodeIgniter\API\ResponseTrait;
 class Home extends BaseController
 {
 
+    public function index()
+    {
+        echo view('doc');
+    }
+
     public function path()
     {
         $request = service('request');
@@ -66,7 +71,13 @@ class Home extends BaseController
 
     }
 
-
+    public function test2()
+    {
+        $request = service('request');
+        echo '<pre>';
+        var_dump($request);
+        echo '</pre>';
+    }
     /*
     public function test()
     {
