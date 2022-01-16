@@ -1,6 +1,6 @@
 # PDF mailing API
-[![GitHub license](https://img.shields.io/github/license/codeigniter4/CodeIgniter4)](https://github.com/codeigniter4/CodeIgniter4/blob/develop/LICENSE)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/codeigniter4/CodeIgniter4/pulls)
+[![GitHub license](https://img.shields.io/github/license/codeigniter4/CodeIgniter4)](https://github.com/GroovyHooked/exoDevOps/blob/main/LICENSE)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/GroovyHooked/exoDevOps/pulls)
 <br>
 
 You will find this documentation on `http://localhost:8080/`
