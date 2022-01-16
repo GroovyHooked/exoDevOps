@@ -11,7 +11,7 @@ You will find this documentation on `http://localhost:8080/`
 
 POST request to send the path of the PDF and email of the user in Json format. <br>
 Here is the format to use:
-```
+```Json
 { 
     "path": "https://www.orimi.com/pdf-test.pdf", 
     "mail": "pierremartin@gmail.com"
@@ -24,7 +24,7 @@ Here is the format to use:
 
 POST request to send the user data in Json format. <br>
 Here is the format to use:
-```
+```Json
 {
     "nom": "Martin",
     "prenom": "pierre",
