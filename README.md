@@ -6,6 +6,7 @@
 You will find this documentation on `http://localhost:8080/`
 ## Two endpoints are available
 ### - First Endpoint
+#### Team PDF 
 `http://localhost:8080/path`
 
 POST request to send the path of the PDF and email of the user in Json format. <br>
@@ -18,6 +19,7 @@ Here is the format you must follow:
 ```
 
 ### - Second Endpoint</h4>
+#### Team billing
 `http://localhost:8080/userdata`
 
 POST request to send the user data in Json format. <br>
