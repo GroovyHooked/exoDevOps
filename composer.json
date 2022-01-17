@@ -59,7 +59,6 @@
             "bash -c \"if [ -f admin/setup.sh ]; then bash admin/setup.sh; fi\""
         ],
         "analyze": "phpstan analyse",
-        "test": "./vendor/bin/phpunit /Users/thomascariot/Sites/codeigniter4/tests",
         "cs": [
             "php-cs-fixer fix --verbose --dry-run --diff --config=.no-header.php-cs-fixer.dist.php",
             "php-cs-fixer fix --verbose --dry-run --diff"
